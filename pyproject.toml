@@ -19,8 +19,8 @@ dependencies = [
 ]
 
 [tool.uv.sources]
-mjlab = { path = "../mjlab", editable = true }
 mujoco-warp = { git = "https://github.com/google-deepmind/mujoco_warp", rev = "e605c406363805d949b75d50dd5ffb3d79bc3f70"}
+mjlab = { path = "../mjlab", editable = true }
 
 [tool.ruff]
 indent-width = 2

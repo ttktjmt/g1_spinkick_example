@@ -5,7 +5,7 @@ import math
 import torch
 from mjlab.entity import Entity
 from mjlab.envs import ManagerBasedRlEnv, ManagerBasedRlEnvCfg
-from mjlab.managers.manager_term_config import TerminationTermCfg
+from mjlab.managers import TerminationTermCfg
 from mjlab.tasks.tracking.config.g1.env_cfgs import unitree_g1_flat_tracking_env_cfg
 
 _MAX_ANG_VEL = 500 * math.pi / 180.0  # [rad/s]

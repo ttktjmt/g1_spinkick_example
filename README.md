@@ -21,23 +21,9 @@ motion comes from Jason Peng's [MimicKit](https://github.com/xbpeng/MimicKit).
 
 ## Installation
 
-1. Clone mjlab:
-
 ```bash
-git clone https://github.com/mujocolab/mjlab
-```
-
-2. Clone this repo:
-
-```bash
-git clone https://github.com/mujocolab/g1_spinkick_example.git
-cd g1_spinkick_example
-```
-
-3. Install mjlab as an editable package:
-
-```bash
-uv add --editable ../mjlab
+git clone https://github.com/mujocolab/g1_spinkick_example.git && cd g1_spinkick_example
+uv sync
 ```
 
 ## Data Conversion
@@ -121,7 +107,7 @@ An alternative option is available through
 framework designed for **onboard execution** and flexible modular integration.
 
 RoboJuDo supports this mjlab example via the `BeyondmimicPolicy`, allowing
-direct use of the provided configuration.  
+direct use of the provided configuration.
 
 <details>
   <summary>A minimal configuration setup is shown below:</summary>

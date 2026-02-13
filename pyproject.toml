@@ -14,13 +14,9 @@ authors = [
 ]
 requires-python = ">=3.10,<3.14"
 dependencies = [
-    "mjlab",
+    "mjlab>=1.1.0",
     "ruff>=0.14.0",
 ]
-
-[tool.uv.sources]
-mjlab = { path = "../mjlab", editable = true }
-mujoco-warp = { git = "https://github.com/google-deepmind/mujoco_warp", rev = "7c20a44bfed722e6415235792a1b247ea6b6a6d3"}
 
 [tool.ruff]
 indent-width = 2
